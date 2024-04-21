@@ -1,0 +1,10 @@
+.button {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: 0;
+}
+
+.red {
+    color: red;
+}

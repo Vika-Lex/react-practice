@@ -1,7 +1,7 @@
 :root {
     /* Root colors */
-    --bgColor: #000;
-    --mainColor: #fff;
+    --bgColor: #fff;
+    --mainColor: #000;
 
     /* Page Settings */
     --minWidth:320px;

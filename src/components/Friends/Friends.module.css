@@ -1,0 +1,36 @@
+.list {
+
+}
+
+.item {
+
+}
+.name {
+
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
+
+.status {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.cardBody {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardHeader {
+
+}
