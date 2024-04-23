@@ -2,17 +2,20 @@ import { useState} from 'react';
 import Counter from '@/components/Counter/Counter.jsx';
 import FriendsList from '@/components/Friends/FriendsList.jsx';
 
-export function App({name}) {
-return (
+export function App1({cars}) {
+  return (
       <>
-      <h1>Hello</h1>
-        <Counter/>
-        <FriendsList />
+        <div>
+          <h1>Cars</h1>
+          <CarsList />
+        </div>
       </>
   );
 }
 
-export default App;
+
+export default App1;
+
 
 
 
