@@ -5,7 +5,8 @@
     "model": "Corolla",
     "year": 2020,
     "color": "blue",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Toyota_Corolla_Limousine_Hybrid_Genf_2019_1Y7A5576.jpg/458px-Toyota_Corolla_Limousine_Hybrid_Genf_2019_1Y7A5576.jpg"
+    "photo": "https://img.automoto.ua/overview/toyota-corolla-2020-304-huge-1542.jpg",
+    "description": "Продам практически новый автомобиль Toyota Corolla. Официальный автомобиль, купленный новым с автосалона в 2021 году! Не путайте с хламом из США! Состояние и запах новой машины!!! Без ДТП!! НИ ОДИН БОЛТ НЕ КРУТИЛСЯ!! Вся в родной краске!! Родной пробег 92 тыс км, полное сервисное обслуживание! Хорошая комплектация . Полный электро-пакет. Электро зеркала. Датчики света. Датчик давления шин. Мультимедиа с USB и Bluetooth.  Мульти руль. Машина полностью обслужена. ДЕЛАТЬ АБСОЛЮТНО НИЧЕГО НЕ НУЖНО. Очень экономичная. Расход по городу 7 л на 100 км. 2 ключа. Кто ищет хороший автомобиль, вам сюда!!! Проверка на любом СТО. ТОРГ У КАПОТА!"
   },
   {
     "id": 967,
@@ -21,17 +22,15 @@
     "model": "Mustang",
     "year": 2021,
     "color": "black",
-    "photo": "https://example.com/ford_mustang.jpg"
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLXFh9Xpvs3h0_XjJ4RVniid0L-3ye532pg&s"
   },
   {
-
-
     "id": 972,
     "brand": "Tesla",
     "model": "Model S",
     "year": 2022,
     "color": "white",
-    "photo": "https://example.com/tesla_model_s.jpg"
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwNl_B1OKMgWnrfISOYS44QWNonXWum2fCFPgEBpwAg&s"
   },
   {
     "id": 555,
@@ -39,6 +38,6 @@
     "model": "X5",
     "year": 2018,
     "color": "silver",
-    "photo": "https://example.com/bmw_x5.jpg"
+    "photo": "https://eva.com.ua/wp-content/uploads/2023/05/bmw-x5-f15-suv-2013-2018-usa-3.jpg"
   }
 ]

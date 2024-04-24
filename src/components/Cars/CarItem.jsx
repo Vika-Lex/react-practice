@@ -1,31 +1,43 @@
-import style from './Cars.module.css'
-import {startTransition, useEffect, useState} from 'react';
+import style from './Cars.module.css';
+import {startTransition, useState} from 'react';
 import Button from '@/components/Button/Button.jsx';
 
-const CarItem = ({car,children}) => {
-  console.log(car);
-  const [state, setState] = useState(false);
-
+const CarItem = ({
+                   car,
+                   children,
+                 }) => {
+  // console.log(car);
+  const [stateCard, setStateCard] = useState(false);
   return (
-      <li>
-        <div>
-          <img src={car.photo}
-               width={50}
-               alt=""/>
-        </div>
+      <div className={style.container}>
+        <li className={style.list}>
+          <div>
+            <img src={car.photo}
+                 width={400}
+                 alt=""/>
+          </div>
 
-        <div className={style.cardBody}>
-         <p>
-            {children}
-          </p>
-          <Button>Детальніше</Button>
-        </div>
-      </li>
+          <div className={style.cardBody}>
+            <p >
+              {car.children}
+            </p>
+            <button className={style.btn} onClick={() => {
+              setStateCard(prevState => !prevState)
+            }}>Детальніше
+            </button>
+            <div style={stateCard
+                ? {display: 'block'}
+                : {display: 'none'}}>
+              {car.description}
+            </div>
+          </div>
+        </li>
+      </div>
 
-  )
-}
+  );
+};
 
-export default CarItem
+export default CarItem;
 
 // "id": 3,
 //     "brand": "Ford",

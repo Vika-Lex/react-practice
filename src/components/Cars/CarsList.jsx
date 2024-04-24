@@ -5,8 +5,9 @@ const CarsList = () => {
   // console.log(cars);
   return (
       <ul>
-        {cars.map((car, id) => (<CarItem key={id} car={car}>{car.brand}</CarItem>))}
+        {cars.map((car, id) => (<CarItem key={car.id} car={car}>{car.brand}</CarItem>))}
       </ul>
+
   );
 };
 

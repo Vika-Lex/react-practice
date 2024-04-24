@@ -1,13 +1,26 @@
-.list {
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: darkslategrey;
+}
 
+.list {
+    list-style: none;
 }
 
 .item {
 
-}
-.name {
 
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .status {
     display: block;
@@ -18,14 +31,36 @@
 
 .cardBody {
     display: flex;
-    flex-wrap: wrap;
-    width: 30%;
     gap: 10px;
-    justify-content: center;
+    flex-direction: column;
+    /*justify-content: center;*/
     align-items: center;
-    background-color: yellow;
 
 }
+
+.cardBody img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.cardBody button {
+    order: -1;
+
+}
+
+.cardBody p {
+    text-align: center;
+    max-width: 100%;
+}
+
+.btn {
+    color: black;
+}
+
+.detail {
+
+}
+
 
 .cardHeader {
 
