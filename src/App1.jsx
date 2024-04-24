@@ -1,8 +1,7 @@
 import { useState} from 'react';
-import Counter from '@/components/Counter/Counter.jsx';
-import FriendsList from '@/components/Friends/FriendsList.jsx';
+import CarsList from '@/components/Cars/CarsList.jsx';
 
-export function App1({cars}) {
+export function App1({brand}) {
   return (
       <>
         <div>
