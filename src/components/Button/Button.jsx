@@ -1,7 +1,7 @@
 import style from './Button.module.css'
-const Button = ({children}) => {
+const Button = ({children,onClick}) => {
   return (
-      <button className={style.button}>
+      <button onClick={onClick} className={style.button}>
         {children}
       </button>
   );

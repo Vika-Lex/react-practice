@@ -9,8 +9,8 @@ const CarItem = ({
   // console.log(car);
   const [stateCard, setStateCard] = useState(false);
   return (
-      <div className={style.container}>
-        <li className={style.list}>
+      // <div className={style.container}>
+        <li className={style.item}>
           <div>
             <img src={car.photo}
                  width={400}
@@ -32,7 +32,8 @@ const CarItem = ({
             </div>
           </div>
         </li>
-      </div>
+      // </div>
+      //ul нельзя вставлять ничего кроме li или надо обернуть в контейрнер весь ul либо вставлять в укаждую лишку
 
   );
 };

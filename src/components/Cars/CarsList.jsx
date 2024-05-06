@@ -1,12 +1,15 @@
-import cars from '@/data/cars.json';
+import cars from '@/data/cars11111.json';
 import CarItem from '@/components/Cars/CarItem.jsx';
+import style from '@/components/Cars/Cars.module.css'
 
 const CarsList = () => {
-  // console.log(cars);
   return (
-      <ul>
-        {cars.map((car, id) => (<CarItem key={car.id} car={car}>{car.brand}</CarItem>))}
-      </ul>
+      <div className={style.container}>
+        <ul className={style.list}>
+          {cars.map((car, id) => (<CarItem key={car.id}
+                                           car={car}>{car.brand}</CarItem>))}
+        </ul>
+      </div>
 
   );
 };

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 333,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "color": "blue",
+    "photo": "https://img.automoto.ua/overview/toyota-corolla-2020-304-huge-1542.jpg",
+    "description": "Продам практически новый автомобиль Toyota Corolla. Официальный автомобиль, купленный новым с автосалона в 2021 году! Не путайте с хламом из США! Состояние и запах новой машины!!! Без ДТП!! НИ ОДИН БОЛТ НЕ КРУТИЛСЯ!! Вся в родной краске!! Родной пробег 92 тыс км, полное сервисное обслуживание! Хорошая комплектация . Полный электро-пакет. Электро зеркала. Датчики света. Датчик давления шин. Мультимедиа с USB и Bluetooth.  Мульти руль. Машина полностью обслужена. ДЕЛАТЬ АБСОЛЮТНО НИЧЕГО НЕ НУЖНО. Очень экономичная. Расход по городу 7 л на 100 км. 2 ключа. Кто ищет хороший автомобиль, вам сюда!!! Проверка на любом СТО. ТОРГ У КАПОТА!"
+  },
+  {
+    "id": 967,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2019,
+    "color": "red",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2022_Honda_Civic_LX_Sedan%2C_front_right%2C_11-02-2022.jpg/1920px-2022_Honda_Civic_LX_Sedan%2C_front_right%2C_11-02-2022.jpg"
+  },
+  {
+    "id": 698,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "color": "black",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLXFh9Xpvs3h0_XjJ4RVniid0L-3ye532pg&s"
+  },
+  {
+    "id": 972,
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2022,
+    "color": "white",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwNl_B1OKMgWnrfISOYS44QWNonXWum2fCFPgEBpwAg&s"
+  },
+  {
+    "id": 555,
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2018,
+    "color": "silver",
+    "photo": "https://eva.com.ua/wp-content/uploads/2023/05/bmw-x5-f15-suv-2013-2018-usa-3.jpg"
+  }
+]
