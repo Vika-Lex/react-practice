@@ -7,8 +7,6 @@ class App05 extends Component {
     inputFilter:'',
     number: 0
   }
-
-
   handleChangeInput = (event) => {
     this.setState(prevState => {
       return {
