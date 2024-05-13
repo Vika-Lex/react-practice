@@ -2,7 +2,6 @@ import {useState} from 'react';
 import React from "react";
 import style from './Counter.module.css'
 import Button from '@/components/Button/Button.jsx';
-// как мне открыть другую папку?
 
 class Counter extends React.Component {
     render() {
@@ -20,7 +19,9 @@ class Counter extends React.Component {
                     <h1>{number}</h1>
                     <Button onClick={minusNumber}>decrement</Button>
                 </div>
-            )};
+            )
+
+        };
         }}
 
 export default Counter;
